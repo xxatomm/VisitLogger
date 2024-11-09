@@ -44,12 +44,15 @@ Abre tu navegador y visita:
 http://localhost:5000
 
 ## 📂 Estructura del Proyecto
+
+```bash
 VisitLogger/
 ├── main.py
 ├── requirements.txt
 ├── README.md
 ├── venv/ (directorio del entorno virtual)
 └── ...
+```
 
 ## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto:
