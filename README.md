@@ -31,3 +31,34 @@ venv\Scripts\activate     # En Windows
 
 # Instala las dependencias
 pip install -r requirements.txt
+```
+
+## 🚀 Uso
+Para ejecutar la aplicación, usa el siguiente comando:
+```bash
+python3 main.py
+```
+
+## 🔍 Acceder a la aplicación (si usas un servidor web)
+Abre tu navegador y visita:
+http://localhost:5000
+
+## 📂 Estructura del Proyecto
+VisitLogger/
+├── main.py
+├── requirements.txt
+├── README.md
+├── venv/ (directorio del entorno virtual)
+└── ...
+
+## 🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto:
+
+Haz un fork del proyecto.
+Crea una rama (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz un commit (git commit -m 'Añadir nueva funcionalidad').
+Sube tus cambios (git push origin feature/nueva-funcionalidad).
+Abre un pull request.
+
+## 📝 Licencia
+Este proyecto está bajo la licencia MIT. Para más detalles, revisa el archivo LICENSE.
