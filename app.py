@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def log_visitor():
-    # Obtener información del visitante
     ip_address = request.remote_addr
     user_agent = request.headers.get('User-Agent')
     referrer = request.referrer if request.referrer else "No referer"
@@ -14,7 +13,6 @@ def log_visitor():
     headers = dict(request.headers)
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-    # Guardar la información en un archivo de logs
     with open('logs.txt', 'a') as log_file:
         log_file.write(f"""
 --- NUEVO REGISTRO ---
