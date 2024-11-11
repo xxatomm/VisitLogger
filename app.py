@@ -42,4 +42,5 @@ Nombre del Host del Servidor: {server_host}
     return redirect('https://www.microsoft.com/es-pe', code=302)
 
 if __name__ == '__main__':
+    # Este es el lugar donde debes poner la ejecución de Flask
     app.run(host='0.0.0.0', port=5000)
