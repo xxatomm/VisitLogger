@@ -41,8 +41,7 @@ cd VisitLogger
 Es recomendable usar un entorno virtual para gestionar las dependencias del proyecto:
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # En Linux/macOS
-venv\Scripts\activate  # En Windows
+source venv/bin/activate
 ```
 
 3. Instala las dependencias
