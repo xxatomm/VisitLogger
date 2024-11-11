@@ -42,4 +42,4 @@ Nombre del Host del Servidor: {server_host}
     return redirect('https://www.microsoft.com/es-pe', code=302)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=5000)
